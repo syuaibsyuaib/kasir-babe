@@ -33,6 +33,9 @@
     "css-loader": "^6.8.1",
     "electron": "26.0.0",
     "file-loader": "^6.2.0",
+    "handlebars": "^4.7.8",
+    "handlebars-loader": "^1.7.3",
+    "html-webpack-plugin": "^5.5.3",
     "node-loader": "^2.0.0",
     "postcss": "^8.4.28",
     "postcss-loader": "^7.3.3",
@@ -41,6 +44,7 @@
     "style-loader": "^3.3.3"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.2",
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.1",
     "electron-squirrel-startup": "^1.0.0",

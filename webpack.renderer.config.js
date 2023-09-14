@@ -1,5 +1,6 @@
 const rules = require("./webpack.rules");
 const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 rules.push(
   {
@@ -43,6 +44,9 @@ module.exports = {
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery',
-    })
+    }),
+    new HtmlWebpackPlugin({
+      template: 'src/index.handlebars', // Gantilah dengan berkas Handlebars Anda
+    }),
   ]
 };

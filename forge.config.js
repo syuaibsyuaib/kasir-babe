@@ -35,7 +35,7 @@ module.exports = {
           nodeIntegration: true,
           entryPoints: [
             {
-              html: './src/index.html',
+              html: './src/index.handlebars',
               js: './src/renderer.js',
               name: 'main_window',
               preload: {
